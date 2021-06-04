@@ -1,4 +1,6 @@
 import numpy as np
+import sys
+import config
 
 '''
 Function to read next uncommented line from the input file 
@@ -18,7 +20,7 @@ This function reads the inout pgm file of P5 format and stores the pixel data in
 def readfile(filename):
     m=[]                     # list to store the matrix
     headers=[]               # list to store header informantion
-
+    print("columns=",config.columns,"rows=",config.rows,"maxGray=",config.maxGray)
     try:
         f=open(filename,'rb')# read file in binary mode  
     except:
@@ -29,8 +31,8 @@ def readfile(filename):
         headers.extend(header.split())
 
     magicNumber = headers[0].decode('ascii')
-    columns,rows,maxGray=list(map(int,headers[1:]))
-    print("magicNumber=",magicNumber,"columns=",columns,"rows=",rows,"maxGray=",maxGray)
+    config.columns,config.rows,config.maxGray=list(map(int,headers[1:]))
+    print("magicNumber=",magicNumber,"columns=",config.columns,"rows=",config.rows,"maxGray=",config.maxGray)
     
     if magicNumber=='P5':
         print("it's P5 file!")
@@ -38,11 +40,11 @@ def readfile(filename):
             for b in line:
                 m.append(b)  # read all pixel values in a list
         f.close()
-        A=np.array(m).reshape(rows,columns) # create numpy array
-        return A,rows,columns,maxGray
+        config.A=np.array(m).reshape(config.rows,config.columns) # create numpy array
+        #print(A)
+        #return A,rows,columns,maxGray
             
     else:
         sys.exit("invalid PGM file")
-        
-    return A,rows,columns,maxGray
 
+  
