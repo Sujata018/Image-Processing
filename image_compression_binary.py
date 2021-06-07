@@ -24,11 +24,11 @@ if __name__=='__main__':
     slice_bits8()
 #    print('Sliced matrices are created!')
     for i in range(8):
-        creatbinaryeFile(config.bitList[i],config.rows,config.columns,1,sys.argv[1][:-4]+'_b'+str(8-i)+sys.argv[1][-4:])
+        creatbinaryeFile(sys.argv[1][:-4]+'_b'+str(8-i)+sys.argv[1][-4:],config.bitList[i],config.rows,config.columns,1)
 
 #    print('8 ascii files are created!')
     merge_bits_87()
 #    print('merges bit 8 and bit 7')
-    creatbinaryeFile(config.A87,config.rows,config.columns,3,sys.argv[1][:-4]+'_b87'+sys.argv[1][-4:])
+    creatbinaryeFile(sys.argv[1][:-4]+'_b87'+sys.argv[1][-4:],config.A87,config.rows,config.columns,3)
     merge_bits_876()
-    creatbinaryeFile(config.A876,config.rows,config.columns,7,sys.argv[1][:-4]+'_b876'+sys.argv[1][-4:])
+    creatbinaryeFile(sys.argv[1][:-4]+'_b876'+sys.argv[1][-4:],config.A876,config.rows,config.columns,7)

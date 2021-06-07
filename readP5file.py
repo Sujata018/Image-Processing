@@ -41,8 +41,6 @@ def readfile(filename):
                 m.append(b)  # read all pixel values in a list
         f.close()
         config.A=np.array(m).reshape(config.rows,config.columns) # create numpy array
-        #print(A)
-        #return A,rows,columns,maxGray
             
     else:
         sys.exit("invalid PGM file")

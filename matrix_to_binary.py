@@ -3,6 +3,7 @@
 
 import sys                     # for system exit in case of errors
 import numpy as np             # to store the matrix in numpy array
+import config
 
 
 '''
@@ -14,7 +15,7 @@ Inputs: A        : the pixel matrix
         filename : name of the output file
 Output: the .pgm file with the filename, the matrix pixels encoded in binary in it. 
 '''
-def creatbinaryeFile(A,rows,columns,maxGray,filename):
+def creatBinaryeFile(filename,A,rows,columns,maxGray):
     try:
         with open(filename,'wb') as f:                                  # open the file in binary write mode
             f.write(bytearray("P5\n",'utf-8'))                          # encoded magic number

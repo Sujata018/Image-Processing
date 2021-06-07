@@ -26,6 +26,7 @@ def readfile(filename):
             except:
                 sys.exit("invalid PGM format")
         config.columns,config.rows,config.maxGray=m[0:3]
+        print('Rows =',config.rows,' Columns = ',config.columns,' maxGray = ',config.maxGray)
         config.A=np.array(m[3:]).reshape(config.rows,config.columns)     
        
     else:
