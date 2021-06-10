@@ -10,6 +10,6 @@ image_compression_binary.py --> Compress binary image using bit slicing
 
 image_compression_ASCII.py --> Compress ASCII image using bit slicing
 
-imageSegmentation.py --> Segment an image (in binary format) using thresholding (Ostu's method and mean of means method)
+imageSegmentation.py --> Segment an image (in binary format) using thresholding (Ostu's method and basic global thresholding method)
 
-imageSegmentation_ascii.py --> Segment an image (in ASCII format) using thresholding (Ostu's method and mean of means method)
+imageSegmentation_ascii.py --> Segment an image (in ASCII format) using thresholding (Ostu's method and basic global thresholding method)
