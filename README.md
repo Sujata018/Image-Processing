@@ -1,8 +1,8 @@
 # Image-Processing
 
-pgm_binary_to_matrix.py -> read a P5 format Portable Gray Map file into a matrix
+pgm_binary_to_matrix.py --> read a P5 format Portable Gray Map file into a matrix
 
-convert_pgm_binary_to_ASCII.py -> Convert a binary pgm file to ASCII format
+convert_pgm_binary_to_ASCII.py --> Convert a binary pgm file to ASCII format
 
 convert_pgm_ASCII_to_binary.py --> Convert an ASCII file to binary
 
