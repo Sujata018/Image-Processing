@@ -6,6 +6,8 @@ convert_pgm_binary_to_ASCII.py --> Convert a binary pgm file to ASCII format
 
 convert_pgm_ASCII_to_binary.py --> Convert an ASCII file to binary
 
+histogramEqualization.py --> Increase contrast of an image using histogram equalization
+
 image_compression_binary.py --> Compress binary image using bit slicing
 
 image_compression_ASCII.py --> Compress ASCII image using bit slicing
