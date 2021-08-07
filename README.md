@@ -15,3 +15,7 @@ image_compression_ASCII.py --> Compress ASCII image using bit slicing
 imageSegmentation.py --> Segment an image (in binary format) using thresholding (Ostu's method and basic global thresholding method)
 
 imageSegmentation_ascii.py --> Segment an image (in ASCII format) using thresholding (Ostu's method and basic global thresholding method)
+
+P2 --> implementation of paper 05746646 "Partitioning Histopathological Images: An Integrated Framework for Supervised Color-Texture Segmentation and Cell Splitting"
+
+        by Hui Kong*, Metin Gurcan, Senior Member, IEEE, and Kamel Belkacem-Boussaid, Senior Member, IEEE
