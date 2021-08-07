@@ -16,4 +16,4 @@ imageSegmentation.py --> Segment an image (in binary format) using thresholding 
 
 imageSegmentation_ascii.py --> Segment an image (in ASCII format) using thresholding (Ostu's method and basic global thresholding method)
 
-P2 --> implementation of paper 05746646 "Partitioning Histopathological Images: An Integrated Framework for Supervised Color-Texture Segmentation and Cell Splitting"  proposed by Hui Kong*, Metin Gurcan, Senior Member, IEEE, and Kamel Belkacem-Boussaid, Senior Member, IEEE
+P2-code --> implementation of paper 05746646 "Partitioning Histopathological Images: An Integrated Framework for Supervised Color-Texture Segmentation and Cell Splitting"  proposed by Hui Kong*, Metin Gurcan, Senior Member, IEEE, and Kamel Belkacem-Boussaid, Senior Member, IEEE
