@@ -4,8 +4,7 @@ P2-code --> implementation of paper 05746646 "Partitioning Histopathological Ima
 
 Segmentation results from this project:
 
-![Original image](https://github.com/Sujata018/Image-Processing/blob/main/images/P2/national-cancer-institute.jpg)
-![Segmented image](https://github.com/Sujata018/Image-Processing/blob/main/images/P2/national-cancer-institute_segmented.bmp)
+![Original image](https://github.com/Sujata018/Image-Processing/blob/main/images/P2/national-cancer-institute.jpg) ![Segmented image](https://github.com/Sujata018/Image-Processing/blob/main/images/P2/national-cancer-institute_segmented.bmp)
 
 convert_pgm_binary_to_ASCII.py --> Convert a binary pgm file to ASCII format
 
