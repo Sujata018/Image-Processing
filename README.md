@@ -10,8 +10,8 @@ Segmentation results from this project:
     <td>Segmented image</td>
   </tr>
   <tr>
-    <td><img src="blob/main/images/P2/national-cancer-institute.jpg" width=270 height=480></td>
-    <td><img src="blob/main/images/P2/national-cancer-institute_segmented.bmp" width=270 height=480></td>
+    <td><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/P2/national-cancer-institute.jpg" width=400 height=400></td>
+    <td><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/P2/national-cancer-institute_segmented.bmp" width=400 height=400></td>
   </tr>
  </table>
 
