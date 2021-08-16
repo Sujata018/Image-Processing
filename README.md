@@ -19,7 +19,7 @@ Segmentation results from this project:
   </tr>
  </table>
  
- (Please check Wiki https://github.com/Sujata018/Image-Processing/wiki or P2-implementation.pptx for more details.)
+ (Please check [Wiki] https://github.com/Sujata018/Image-Processing/wiki or P2-implementation.pptx for more details.)
  
 --------
 convert_pgm_binary_to_ASCII.py --> Convert a binary pgm file to ASCII format
