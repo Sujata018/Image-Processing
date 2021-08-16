@@ -10,17 +10,18 @@ Segmentation results from this project:
     <td>Segmented image</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/P2/national-cancer-institute.jpg" width=400 height=400></td>
-    <td><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/P2/national-cancer-institute_segmented.bmp" width=400 height=400></td>
+    <td><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/P2/national-cancer-institute.jpg" width=400 height=300></td>
+    <td><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/P2/national-cancer-institute_segmented.bmp" width=400 height=300></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/P2/43601.jpg" width=400 height=400></td>
-    <td><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/P2/43601_HE_segmented.bmp" width=400 height=400></td>
+    <td><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/P2/43601.jpg" width=400 height=300></td>
+    <td><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/P2/43601_HE_segmented.bmp" width=400 height=300></td>
   </tr>
  </table>
  
- Please check Wiki or P2-implementation.pptx for more details.
-
+ (Please check Wiki or P2-implementation.pptx for more details.)
+ 
+--------
 convert_pgm_binary_to_ASCII.py --> Convert a binary pgm file to ASCII format
 
 convert_pgm_ASCII_to_binary.py --> Convert an ASCII file to binary
