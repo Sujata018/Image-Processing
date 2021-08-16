@@ -1,8 +1,19 @@
 # Image-Processing
 
-P2-code --> implementation of paper 05746646 "Partitioning Histopathological Images: An Integrated Framework for Supervised Color-Texture Segmentation and Cell Splitting"  proposed by Hui Kong*, Metin Gurcan, Senior Member, IEEE, and Kamel Belkacem-Boussaid, Senior Member, IEEE
+## P2-code --> implementation of paper 05746646 "Partitioning Histopathological Images: An Integrated Framework for Supervised Color-Texture Segmentation and Cell Splitting"  proposed by Hui Kong*, Metin Gurcan, Senior Member, IEEE, and Kamel Belkacem-Boussaid, Senior Member, IEEE
 
 Segmentation results from this project:
+
+<table>
+  <tr>
+    <td>Original image</td>
+    <td>Segmented image</td>
+  </tr>
+  <tr>
+    <td><img src="blob/main/images/P2/national-cancer-institute.jpg" width=270 height=480></td>
+    <td><img src="blob/main/images/P2/national-cancer-institute_segmented.bmp" width=270 height=480></td>
+  </tr>
+ </table>
 
 ![Original image](https://github.com/Sujata018/Image-Processing/blob/main/images/P2/national-cancer-institute.jpg) ![Segmented image](https://github.com/Sujata018/Image-Processing/blob/main/images/P2/national-cancer-institute_segmented.bmp)
 
