@@ -3,7 +3,12 @@
 P2-code --> implementation of paper 05746646 "Partitioning Histopathological Images: An Integrated Framework for Supervised Color-Texture Segmentation and Cell Splitting"  proposed by Hui Kong*, Metin Gurcan, Senior Member, IEEE, and Kamel Belkacem-Boussaid, Senior Member, IEEE
 
 This project segments as below :
-![Original image]()
+
+![Original image](https://github.com/Sujata018/Image-Processing/blob/main/images/P2/43601.jpg)
+
+segmented as 
+
+![Segmented image](https://github.com/Sujata018/Image-Processing/blob/main/images/P2/43601.jpg)
 
 convert_pgm_binary_to_ASCII.py --> Convert a binary pgm file to ASCII format
 
