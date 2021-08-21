@@ -115,29 +115,34 @@ def HSI2RGB(imgHSI):
     '''
     Convert from HSI color code to RGB color code
     '''
-    h,s,i=imgHSI[:,:,0],imgHSI[:,:,1],imgHSI[:,:,2] # extract hue, saturation and intensity components
-    b=np.zeros(h.shape,dtype=int)                   # initialise rgb matrices to zero
+    # extract hue, saturation and intensity components
+    h,s,i=imgHSI[:,:,0],imgHSI[:,:,1],imgHSI[:,:,2]
+
+    # initialise rgb matrices to zero
+    b=np.zeros(h.shape,dtype=int)                   
     g=np.zeros(h.shape,dtype=int)
     r=np.zeros(h.shape,dtype=int)
 
+    # calculate r,g,b chanel values from h,s,i values
     t=i*(1-s)
     b=np.where(h<120,t,b)
     r=np.where((120<=h)&(h<240),t,r)
     g=np.where(h>240,t,g)
     
-    t=s*(np.cos(np.radians(h))/np.cos(np.radians(60-h))) # for h<120 
+    t=s*(np.cos(np.radians(h))/np.cos(np.radians(60-h)))      # for h<120, h is unchanged
     r=np.where(h<120,i*(1+t),r)
 
-    t=s*(np.cos(np.radians(h-120))/np.cos(np.radians(180-h))) # 120<=h<240
+    t=s*(np.cos(np.radians(h-120))/np.cos(np.radians(180-h))) # 120<=h<240, h=h-120
     g=np.where((120<=h)&(h<240),i*(1+t),g)
 
-    t=s*(np.cos(np.radians(h-240))/np.cos(np.radians(300-h))) # h>40
+    t=s*(np.cos(np.radians(h-240))/np.cos(np.radians(300-h))) # h>240, h = h - 240
     b=np.where(h>240,i*(1+t),b)
 
     g=np.where(h<120,3*i-r-b,g)
     b=np.where((120<=h)&(h<240),3*i-r-g,b)
     r=np.where(h>240,3*i-g-b,r)
 
+    # concatenate rgb chanels and round to 8-bit unsigned integer (range 0-255)
     rgbimg=np.round(np.dstack([b,g,r]))
     rgbimg=rgbimg.astype(np.uint8)
     
