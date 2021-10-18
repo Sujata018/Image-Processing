@@ -37,6 +37,24 @@ Segmentation results from this project:
     <td>Transforms input image from command line from RGB to CMYK, then transforms back to RGB, then transfrms to HSI, then transforms back to RGB. Shows differences between original and recovered images after conversion.</td>
   </tr>
  </table>
+ 
+ ### Package : enhancement
+ 
+ <table>
+  <tr>
+    <th>Source</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>adaptiveEdgeSmoothingOpenCV.py</td>
+    <td>Pakgage used : OpenCV <br> Implementation of edge adaptive smoothing</td>
+  </tr>
+  <tr>
+    <td>anisotropicDiffusion_skimage.py</td>
+    <td>Pakgage used : skimage <br> Implementation of anisotropic diffusion</td>
+  </tr>
+</table>
+
 
 ### Other codes
 
