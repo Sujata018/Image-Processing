@@ -17,7 +17,7 @@
     <td>Theory</td>
   </tr>
   
-    <tr>
+  <tr>
     <td>anisotropicDiffusion_skimage.py</td>
     <td>Pakgage used : skimage <br> Implementation of anisotropic diffusion</td>
     <td><source=''></td>
