@@ -47,11 +47,11 @@ Segmentation results from this project:
   </tr>
   <tr>
     <td>adaptiveEdgeSmoothingOpenCV.py</td>
-    <td>Pakgage used : OpenCV <br> Implementation of edge adaptive smoothing</td>
+    <td>Package used : OpenCV <br> Implementation of edge adaptive smoothing</td>
   </tr>
   <tr>
     <td>anisotropicDiffusion_skimage.py</td>
-    <td>Pakgage used : skimage <br> Implementation of anisotropic diffusion</td>
+    <td>Package used : skimage <br> Implementation of anisotropic diffusion</td>
   </tr>
 </table>
 
