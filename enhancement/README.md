@@ -12,7 +12,7 @@
 
   <tr>
     <td>adaptiveEdgeSmoothingOpenCV.py</td>
-    <td>Pakgage used : OpenCV <br> Implementation of edge adaptive smoothing.</td>
+    <td>Pakgage used : OpenCV <br> Implementation of edge adaptive smoothing</td>
     <td><source=''></td>
     <td>Theory</td>
   </tr>
