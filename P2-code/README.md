@@ -18,4 +18,4 @@ Implementation of paper 05746646 "Partitioning Histopathological Images: An Inte
   </tr>
  </table>
  
- (Please check [Wiki] https://github.com/Sujata018/Image-Processing/wiki or P2-implementation.pptx for more details.)
+ (Please check [Wiki] https://github.com/Sujata018/Image-Processing/wiki or [P2-implementation.pptx] https://github.com/Sujata018/Image-Processing/blob/main/P2-implementation.pptx for more details.)
