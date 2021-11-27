@@ -36,6 +36,11 @@ Segmentation results from this project:
     <td>colorcode.py</td>
     <td>Transforms input image from command line from RGB to CMYK, then transforms back to RGB, then transfrms to HSI, then transforms back to RGB. Shows differences between original and recovered images after conversion.</td>
   </tr>
+  <tr>
+    <td></td>
+    <td>FT.ipynb</td>
+    <td>Implementation of Fast Fourier Transform (FFT), inverse FFT, Discrete Fourier Transform (DFT), IDFT, from scratch.</td>
+  </tr>
  </table>
  
  ### Package : enhancement
