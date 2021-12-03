@@ -39,7 +39,7 @@ Segmentation results from this project:
   <tr>
     <td></td>
     <td>FT.ipynb</td>
-    <td>Implementation of Fast Fourier Transform (FFT), inverse FFT, Discrete Fourier Transform (DFT), IDFT, create Fourier Magnitude Spectra in two ways (restructuring the FFT, multiplying spatial image by (-1)^(x+y)) from scratch.<BR> Results: </td>
+    <td>Implementation of Fast Fourier Transform (FFT), inverse FFT, Discrete Fourier Transform (DFT), IDFT, create Fourier Magnitude Spectra in two ways (restructuring the FFT, multiplying spatial image by (-1)^(x+y)) from scratch.<BR> <BR> Results: <BR> <img src="https://github.com/Sujata018/Image-Processing/blob/main/images/transform/FFT_DFT_Spectrum.jpg"></td>
   </tr>
  </table>
  
