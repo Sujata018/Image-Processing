@@ -39,7 +39,7 @@ Segmentation results from this project:
   <tr>
     <td></td>
     <td>FT.ipynb</td>
-    <td>Implementation of Fast Fourier Transform (FFT), inverse FFT, Discrete Fourier Transform (DFT), IDFT, from scratch.</td>
+    <td>Implementation of Fast Fourier Transform (FFT), inverse FFT, Discrete Fourier Transform (DFT), IDFT, create Fourier Magnitude Spectra in two ways (restructuring the FFT, multiplying spatial image by (-1)^(x+y)) from scratch.<BR> Results: </td>
   </tr>
  </table>
  
