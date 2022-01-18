@@ -32,6 +32,11 @@ Segmentation results from this project:
     <td>Functionality</td>
   </tr>
   <tr>
+    <td</td>
+    <td>ConvertColor2Grey.py</td>
+    <td>Converts all images from the current directory to gray and writes with name '_Gray' appended to the original name.</td>
+  </tr>
+  <tr>
     <td>convert_RGB_CMY_HSI.py</td>
     <td>colorcode.py</td>
     <td>Transforms input image from command line from RGB to CMYK, then transforms back to RGB, then transfrms to HSI, then transforms back to RGB. Shows differences between original and recovered images after conversion.</td>
