@@ -46,35 +46,29 @@ Segmentation results from this project:
 <table>
   <tr>
     <td>Topic</td>
-    <td>Main program</td>
-    <td>Module used from package</td>
+    <td>Source code</td>
     <td>Functionality</td>
     <td>Results</td>
   </tr>
   <tr>
-    <td>Color conversion</td>
-    <td></td>
+    <td span=2>Color conversion</td>
     <td>ConvertColor2Grey.py</td>
     <td>Converts all images from the current directory to gray and writes with name '_Gray' appended to the original name.</td>
     <td></td>
   </tr>
   <tr>
-    <td>Color conversion</td>
-    <td>convert_RGB_CMY_HSI.py</td>
-    <td>colorcode.py</td>
+    <td>Main pgm :convert_RGB_CMY_HSI.py <BR> Module called from package : colorcode.py</td>
     <td>Transforms input image from command line from RGB to CMYK, then transforms back to RGB, then transfrms to HSI, then transforms back to RGB. Shows differences between original and recovered images after conversion.</td>
     <td></td>
   </tr>
   <tr>
     <td>Fourier Transform</td>
-    <td></td>
     <td>FT.ipynb</td>
     <td>Implementation of Fast Fourier Transform (FFT), inverse FFT, Discrete Fourier Transform (DFT), IDFT, create Fourier Magnitude Spectra in two ways (restructuring the FFT, multiplying spatial image by (-1)^(x+y)) from scratch. </td>
     <td><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/transform/FFT_DFT_Spectrum.jpg"></td>
   </tr>
   <tr>
     <td>Gabor Transform</td>
-    <td></td>
     <td>GaborFilter.ipynb</td>
     <td>Creates texture signature from an input image. </td>
     <td><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/transform/Gabor_Filter_Results1.jpg"></td>
