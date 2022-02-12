@@ -51,7 +51,7 @@ Segmentation results from this project:
     <td>Results</td>
   </tr>
   <tr>
-    <td span=2>Color conversion</td>
+    <td rowspan=2>Color conversion</td>
     <td>ConvertColor2Grey.py</td>
     <td>Converts all images from the current directory to gray and writes with name '_Gray' appended to the original name.</td>
     <td></td>
