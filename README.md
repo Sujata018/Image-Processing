@@ -23,6 +23,22 @@ Segmentation results from this project:
  (Please check [Wiki] https://github.com/Sujata018/Image-Processing/wiki or P2-implementation.pptx for more details.)
  
 --------
+
+ ### Package : segmentation
+ <table>
+  <tr>
+    <td>Topic</td>
+    <td>Source code</td>
+    <td>Functionality</td>
+  </tr>
+  <tr>
+    <td>Spectral clustering</td>
+    <td>GraphCut.ipynb</td>
+    <td>Segments a color image into given number of clusters using spectral clustering.</td>
+  </tr>
+ </table>
+
+
 ### Package : transform
 
 <table>
