@@ -43,12 +43,11 @@ Segmentation results from this project:
 
 ### Package : transform
 
-<table style="width: 100%;">
+<table>
   <tr>
     <td>Topic</td>
     <td>Source code</td>
-    <td style="width:25%;">Functionality</td>
-    <td>Results</td>
+    <td>Functionality</td>
   </tr>
   <tr>
     <td rowspan=2>Color conversion</td>
@@ -64,20 +63,17 @@ Segmentation results from this project:
   <tr>
     <td>Fourier Transform</td>
     <td>FT.ipynb</td>
-    <td>Implementation of Fast Fourier Transform (FFT), inverse FFT, Discrete Fourier Transform (DFT), IDFT, create Fourier Magnitude Spectra in two ways (restructuring the FFT, multiplying spatial image by (-1)^(x+y)) from scratch. </td>
-    <td><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/transform/FFT_DFT_Spectrum.jpg"></td>
+    <td>Implementation of Fast Fourier Transform (FFT), inverse FFT, Discrete Fourier Transform (DFT), IDFT, create Fourier Magnitude Spectra in two ways (restructuring the FFT, multiplying spatial image by (-1)^(x+y)) from scratch.<br><br>Results:<br><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/transform/FFT_DFT_Spectrum.jpg"></td>
   </tr>
   <tr>
     <td>Gabor Transform</td>
     <td>GaborFilter.ipynb</td>
-    <td>Creates texture signature from an input image. </td>
-    <td><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/transform/Gabor_Filter_Results1.jpg"></td>
+    <td>Creates texture signature from an input image. <br><br>Results:<br><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/transform/Gabor_Filter_Results1.jpg"></td>
   </tr>
   <tr>
     <td>Wavelet Transform</td>
     <td>wavelet.ipynb</td>
-    <td>Creates wavelets for an input image, and then reconstructs the image from the wavelets. User has option to provide the input image, specify whether to create tree wavelet or package wavelet, and the number of lebels of the wavelets. </td>
-    <td><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/transform/Tree wavelets1_level2.jpg"></td>
+    <td>Creates wavelets for an input image, and then reconstructs the image from the wavelets. User has option to provide the input image, specify whether to create tree wavelet or package wavelet, and the number of lebels of the wavelets. <br><br>Results:<br><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/transform/Tree wavelets1_level2.jpg"></td>
   </tr>
 
  </table>
