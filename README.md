@@ -43,11 +43,11 @@ Segmentation results from this project:
 
 ### Package : transform
 
-<table>
+<table style="width: 100%;">
   <tr>
     <td>Topic</td>
     <td>Source code</td>
-    <td>Functionality</td>
+    <td style="width:25%;">Functionality</td>
     <td>Results</td>
   </tr>
   <tr>
