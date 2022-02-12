@@ -57,7 +57,7 @@ Segmentation results from this project:
     <td></td>
   </tr>
   <tr>
-    <td>Main pgm :convert_RGB_CMY_HSI.py <BR> Module called from package : colorcode.py</td>
+    <td>Main:convert_RGB_CMY_HSI.py <BR> From package : colorcode.py</td>
     <td>Transforms input image from command line from RGB to CMYK, then transforms back to RGB, then transfrms to HSI, then transforms back to RGB. Shows differences between original and recovered images after conversion.</td>
     <td></td>
   </tr>
