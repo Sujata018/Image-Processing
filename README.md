@@ -75,7 +75,6 @@ Segmentation results from this project:
   </tr>
   <tr>
     <td>Wavelet Transform</td>
-    <td></td>
     <td>wavelet.ipynb</td>
     <td>Creates wavelets for an input image, and then reconstructs the image from the wavelets. User has option to provide the input image, specify whether to create tree wavelet or package wavelet, and the number of lebels of the wavelets. </td>
     <td><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/transform/Tree wavelets1_level2.jpg"></td>
