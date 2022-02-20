@@ -61,6 +61,13 @@ Segmentation results from this project:
     <td></td>
   </tr>
   <tr>
+    <td>Format conversion</td>
+    <td>convert_to_jpg_all.py</td>
+    <td>Converts all files (except .py files) in the current folder to jpg format, creates a folder 'JPG' and keeps all jpg files in it.</td>
+    <td></td>
+  </tr>
+
+  <tr>
     <td>Fourier Transform</td>
     <td>FT.ipynb</td>
     <td>Implementation of Fast Fourier Transform (FFT), inverse FFT, Discrete Fourier Transform (DFT), IDFT, create Fourier Magnitude Spectra in two ways (restructuring the FFT, multiplying spatial image by (-1)^(x+y)) from scratch.<br><br>Results:<br><img src="https://github.com/Sujata018/Image-Processing/blob/main/images/transform/FFT_DFT_Spectrum.jpg"></td>
